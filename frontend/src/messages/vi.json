@@ -1,0 +1,84 @@
+{
+  "auth": {
+    "signin": {
+      "title": "Chào mừng trở lại",
+      "subtitle": "Đăng nhập vào tài khoản của bạn để tiếp tục",
+      "email": "Email",
+      "emailPlaceholder": "ban@email.com",
+      "password": "Mật khẩu",
+      "passwordPlaceholder": "Nhập mật khẩu của bạn",
+      "submit": "Đăng nhập",
+      "googleButton": "Tiếp tục với Google",
+      "noAccount": "Chưa có tài khoản?",
+      "signupLink": "Đăng ký",
+      "forgotPassword": "Quên mật khẩu?"
+    },
+    "signup": {
+      "title": "Tạo tài khoản",
+      "subtitle": "Tham gia Turbo Taskify và bắt đầu tổ chức công việc",
+      "username": "Tên người dùng",
+      "usernamePlaceholder": "ten_nguoi_dung",
+      "email": "Email",
+      "emailPlaceholder": "ban@email.com",
+      "password": "Mật khẩu",
+      "passwordPlaceholder": "Tối thiểu 8 ký tự, 1 hoa, 1 số, 1 ký tự đặc biệt",
+      "submit": "Tạo tài khoản",
+      "googleButton": "Đăng ký với Google",
+      "hasAccount": "Đã có tài khoản?",
+      "signinLink": "Đăng nhập"
+    },
+    "signout": {
+      "button": "Đăng xuất"
+    },
+    "divider": "hoặc",
+    "appName": "Turbo Taskify",
+    "appTagline": "Trình quản lý công việc cá nhân của bạn",
+    "errors": {
+      "invalid_credentials": "Email hoặc mật khẩu không đúng",
+      "email_already_exists": "Email này đã được đăng ký",
+      "username_taken": "Tên người dùng này đã được sử dụng",
+      "invalid_email": "Vui lòng nhập địa chỉ email hợp lệ",
+      "weak_password": "Mật khẩu không đáp ứng yêu cầu",
+      "invalid_token": "Đăng nhập Google thất bại. Vui lòng thử lại.",
+      "token_expired": "Phiên đã hết hạn. Vui lòng đăng nhập lại.",
+      "generic": "Đã xảy ra lỗi. Vui lòng thử lại."
+    },
+    "validation": {
+      "emailRequired": "Email là bắt buộc",
+      "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+      "passwordRequired": "Mật khẩu là bắt buộc",
+      "passwordMinLength": "Mật khẩu phải có ít nhất 8 ký tự",
+      "passwordPattern": "Phải chứa chữ hoa, chữ số và ký tự đặc biệt",
+      "usernameRequired": "Tên người dùng là bắt buộc",
+      "usernameMinLength": "Tên người dùng phải có ít nhất 2 ký tự",
+      "usernameMaxLength": "Tên người dùng phải từ 50 ký tự trở xuống",
+      "usernamePattern": "Chỉ được dùng chữ cái, số và dấu gạch dưới"
+    }
+  },
+  "dashboard": {
+    "greeting": "Xin chào, {name}!",
+    "tagline": "Hôm nay bạn sẽ chinh phục điều gì?",
+    "email": "Email",
+    "username": "Tên người dùng",
+    "theme": "Giao diện",
+    "language": "Ngôn ngữ",
+    "accountInfo": "Tài khoản"
+  },
+  "home": {
+    "getStarted": "Để bắt đầu, hãy chỉnh sửa tệp page.tsx.",
+    "instructions": "Đang tìm điểm khởi đầu hoặc hướng dẫn thêm? Hãy đến",
+    "templatesLink": "Mẫu",
+    "or": "hoặc",
+    "learningCenterLink": "Trung tâm",
+    "learningCenterSuffix": "học tập.",
+    "deployNow": "Triển khai ngay",
+    "documentation": "Tài liệu",
+    "nextjsLogoAlt": "Logo Next.js",
+    "vercelLogoAlt": "Logo Vercel"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "showPassword": "Hiện mật khẩu",
+    "hidePassword": "Ẩn mật khẩu"
+  }
+}
