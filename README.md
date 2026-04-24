@@ -31,6 +31,15 @@ go run cmd/api/main.go
 # http://localhost:8080
 ```
 
+### Backend with hot reload (recommended for dev)
+
+```bash
+go install github.com/air-verse/air@latest
+cd backend
+air
+# http://localhost:8080 — rebuilds on every file save
+```
+
 ### Backend with Docker (recommended)
 
 Requires [Docker Desktop](https://www.docker.com/products/docker-desktop).

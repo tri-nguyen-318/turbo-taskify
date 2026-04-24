@@ -2,7 +2,6 @@ package middleware
 
 import (
 	"net/http"
-	"strings"
 
 	"github.com/gin-gonic/gin"
 
@@ -11,15 +10,15 @@ import (
 
 func Auth(ts *token.Service) gin.HandlerFunc {
 	return func(c *gin.Context) {
-		header := c.GetHeader("Authorization")
-		if !strings.HasPrefix(header, "Bearer ") {
+		accessToken, err := c.Cookie("access_token")
+		if err != nil || accessToken == "" {
 			c.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{
 				"success": false, "error": "unauthorized",
 			})
 			return
 		}
 
-		claims, err := ts.ValidateAccessToken(strings.TrimPrefix(header, "Bearer "))
+		claims, err := ts.ValidateAccessToken(accessToken)
 		if err != nil {
 			c.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{
 				"success": false, "error": "invalid_token",
