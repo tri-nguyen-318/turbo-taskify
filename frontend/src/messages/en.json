@@ -1,0 +1,84 @@
+{
+  "auth": {
+    "signin": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your account to continue",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Sign in",
+      "googleButton": "Continue with Google",
+      "noAccount": "Don't have an account?",
+      "signupLink": "Sign up",
+      "forgotPassword": "Forgot password?"
+    },
+    "signup": {
+      "title": "Create an account",
+      "subtitle": "Join Turbo Taskify and start organizing",
+      "username": "Username",
+      "usernamePlaceholder": "your_username",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Min 8 chars, 1 uppercase, 1 number, 1 special",
+      "submit": "Create account",
+      "googleButton": "Sign up with Google",
+      "hasAccount": "Already have an account?",
+      "signinLink": "Sign in"
+    },
+    "signout": {
+      "button": "Sign out"
+    },
+    "divider": "or",
+    "appName": "Turbo Taskify",
+    "appTagline": "Your personal task manager",
+    "errors": {
+      "invalid_credentials": "Invalid email or password",
+      "email_already_exists": "This email is already registered",
+      "username_taken": "This username is already taken",
+      "invalid_email": "Please enter a valid email address",
+      "weak_password": "Password does not meet requirements",
+      "invalid_token": "Google sign-in failed. Please try again.",
+      "token_expired": "Session expired. Please sign in again.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordMinLength": "Password must be at least 8 characters",
+      "passwordPattern": "Must contain uppercase, number, and special character",
+      "usernameRequired": "Username is required",
+      "usernameMinLength": "Username must be at least 2 characters",
+      "usernameMaxLength": "Username must be 50 characters or less",
+      "usernamePattern": "Only letters, numbers, and underscores allowed"
+    }
+  },
+  "dashboard": {
+    "greeting": "Hello, {name}!",
+    "tagline": "What are you tackling today?",
+    "email": "Email",
+    "username": "Username",
+    "theme": "Theme",
+    "language": "Language",
+    "accountInfo": "Account"
+  },
+  "home": {
+    "getStarted": "To get started, edit the page.tsx file.",
+    "instructions": "Looking for a starting point or more instructions? Head over to",
+    "templatesLink": "Templates",
+    "or": "or the",
+    "learningCenterLink": "Learning",
+    "learningCenterSuffix": "center.",
+    "deployNow": "Deploy Now",
+    "documentation": "Documentation",
+    "nextjsLogoAlt": "Next.js logo",
+    "vercelLogoAlt": "Vercel logomark"
+  },
+  "common": {
+    "loading": "Loading...",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
+  }
+}
